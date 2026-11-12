@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Еда в 3D</title>
+<style>
+:root{--bg:#000;--ink:#f2f2f2;--mute:#9a9a9a;--chip:#1c1c1c;--acc:#f0a050;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:28px 16px 48px}
+h1{font-size:26px;line-height:1.2;margin:0 0 8px}
+p{margin:0 0 14px}
+.mute{color:var(--mute);font-size:15px}
+.how{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px;padding:0;list-style:none}
+.how li{background:var(--chip);border-radius:999px;padding:6px 12px;font-size:15px}
+h2{font-size:18px;margin:22px 0 8px}
+.view{position:relative;width:100%;aspect-ratio:4/5;max-height:60vh;border-radius:14px;overflow:hidden;background:#0b0b0b}
+.view iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+a{color:var(--acc)}
+</style>
+</head>
+<body>
+<main>
+<h1>Привет! Зацени, какая штука</h1>
+<p>Это не видео. Настоящая еда, снятая со всех сторон, из фото собран объёмный снимок. Так можно снять и мясо.</p>
+<ul class="how">
+  <li>☝️ один палец - крутить</li>
+  <li>🤏 щипок - приблизить</li>
+  <li>✌️ два пальца - сдвинуть</li>
+</ul>
+
+<h2>Клубника</h2>
+<div class="view"><iframe src="https://superspl.at/s?id=84df8849" allow="fullscreen; xr-spatial-tracking" loading="lazy" title="Клубника в 3D"></iframe></div>
+<p class="mute">Не крутится? <a href="https://superspl.at/scene/84df8849">Открыть отдельно</a></p>
+
+<h2>Помидоры</h2>
+<div class="view"><iframe src="https://superspl.at/s?id=0101ad57" allow="fullscreen; xr-spatial-tracking" loading="lazy" title="Помидоры в 3D"></iframe></div>
+<p class="mute">Не крутится? <a href="https://superspl.at/scene/0101ad57">Открыть отдельно</a></p>
+</main>
+</body>
+</html>
